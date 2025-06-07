@@ -24,10 +24,10 @@ app.use('/api/medicine', medicineRoutes);
 const frontendPath = path.join(__dirname, '../medtrack/build');
 app.use(express.static(frontendPath));
 
-// ✅ React Route Fallback:
-app.get('*', (req, res) => {
-  res.sendFile(path.join(frontendPath, 'index.html'));
-});
+// // ✅ React Route Fallback:
+// app.get('*', (req, res) => {
+//   res.sendFile(path.join(frontendPath, 'index.html'));
+// });
 
 // Connect DB & Start server
 mongoose.connect(process.env.MONGO_URI)
