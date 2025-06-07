@@ -18,7 +18,7 @@ const AddMedicine = () => {
     const token = localStorage.getItem('token');
     try {
       const res = await axios.post(
-        'http://localhost:5000/api/medicine/add',
+        'https://medtrack-backend-r6g5.onrender.com/api/medicine/add',
         form,
         {
           headers: {

@@ -20,7 +20,7 @@ const Dashboard = () => {
   const fetchMeds = async () => {
     const token = localStorage.getItem("token");
     try {
-      const res = await axios.get("http://localhost:5000/api/medicine/all", {
+      const res = await axios.get("https://medtrack-backend-r6g5.onrender.com/api/medicine/all", {
         headers: { Authorization: `Bearer ${token}` },
       });
       const fetched = res.data.medicines;
@@ -159,7 +159,7 @@ const Dashboard = () => {
   const handleDelete = async (id) => {
     const token = localStorage.getItem("token");
     try {
-      await axios.delete(`http://localhost:5000/api/medicine/${id}`, {
+      await axios.delete(`https://medtrack-backend-r6g5.onrender.com/api/medicine/${id}`, {
         headers: { Authorization: `Bearer ${token}` },
       });
       alert("Deleted successfully");
