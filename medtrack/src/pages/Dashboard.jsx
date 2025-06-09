@@ -151,9 +151,11 @@ const Dashboard = () => {
   };
 
   const handleMarkTaken = (id) => {
-    const updated = [...takenMeds, id];
-    setTakenMeds(updated);
-    localStorage.setItem("takenMeds", JSON.stringify(updated));
+    if (!takenMeds.includes(id)) {
+      const updated = [...takenMeds, id];
+      setTakenMeds(updated);
+      localStorage.setItem("takenMeds", JSON.stringify(updated));
+    }
   };
 
   const handleDelete = async (id) => {
@@ -182,17 +184,20 @@ const Dashboard = () => {
       : Math.round((takenMeds.length / medicines.length) * 100);
 
   return (
-    <div className="p-6 max-w-6xl mx-auto bg-gray-50 min-h-screen">
-      <h2 className="text-3xl font-bold mb-6 text-gray-900">Your Medicines</h2>
+    <div className="min-h-screen bg-gray-50 p-6 pt-28 max-w-7xl mx-auto">
+      <h2 className="text-4xl font-bold mb-8 text-indigo-800 text-center">
+        Your Medicines
+      </h2>
 
+      {/* Progress Bar */}
       {medicines.length > 0 && (
-        <div className="mb-8">
-          <p className="text-gray-800 mb-1 font-medium">
+        <div className="mb-10 max-w-xl mx-auto">
+          <p className="text-gray-700 mb-2 font-semibold text-center">
             Daily Progress: {takenMeds.length} of {medicines.length} taken
           </p>
-          <div className="w-full bg-gray-200 rounded-full h-5 overflow-hidden">
+          <div className="w-full bg-gray-300 rounded-full h-6 overflow-hidden shadow-inner">
             <div
-              className="bg-green-500 h-full transition-all duration-500 text-right pr-2 text-white text-sm font-bold flex items-center justify-end"
+              className="bg-green-600 h-full text-white text-sm font-bold flex items-center justify-end pr-3 transition-all duration-700"
               style={{ width: `${progress}%` }}
             >
               {progress}%
@@ -201,61 +206,72 @@ const Dashboard = () => {
         </div>
       )}
 
+      {/* Medicines Grid */}
       {medicines.length === 0 ? (
-        <p className="text-gray-700">No medicines added yet.</p>
+        <p className="text-center text-gray-600 text-lg">No medicines added yet.</p>
       ) : (
-        <ul className="grid gap-4 sm:grid-cols-2 md:grid-cols-3">
+        <ul className="grid gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
           {medicines.map((med) => {
             const isTaken = takenMeds.includes(med._id);
             return (
               <motion.li
                 key={med._id}
-                initial={{ opacity: 0, y: 30 }}
+                initial={{ opacity: 0, y: 20 }}
                 animate={{ opacity: 1, y: 0 }}
-                transition={{ duration: 0.3 }}
-                whileHover={{ scale: 1.03 }}
-                className={`border rounded p-4 shadow bg-white text-gray-900 relative ${
-                  isTaken ? "opacity-60" : ""
+                transition={{ duration: 0.4 }}
+                whileHover={{ scale: 1.05, boxShadow: "0 8px 20px rgba(0,0,0,0.12)" }}
+                className={`relative bg-white rounded-xl border border-gray-200 p-6 shadow-md flex flex-col justify-between transition-opacity duration-300 ${
+                  isTaken ? "opacity-60" : "opacity-100"
                 }`}
               >
-                <h3 className="font-bold text-lg">{med.name}</h3>
-                <p><strong>Dosage:</strong> {med.dosage}</p>
-                <p>
-                  <strong>Time:</strong>{" "}
-                  {Array.isArray(med.time) ? med.time[0] : med.time}
-                  <span className="ml-2 text-sm text-blue-600">
-                    ⏳ {getCountdown(med.time, med.days)}
-                  </span>
-                </p>
-                <p>
-                  <strong>Days:</strong>{" "}
-                  {Array.isArray(med.days) ? med.days.join(", ") : med.days || "-"}
-                </p>
+                <div>
+                  <h3 className="text-xl font-extrabold text-indigo-900 mb-1 truncate">
+                    {med.name}
+                  </h3>
+                  <p className="text-gray-700 mb-1">
+                    <strong>Dosage:</strong> {med.dosage || "-"}
+                  </p>
+                  <p className="text-gray-700 mb-1">
+                    <strong>Time:</strong>{" "}
+                    {Array.isArray(med.time) ? med.time[0] : med.time || "-"}
+                    <span className="ml-2 text-blue-600 font-mono text-sm">
+                      ⏳ {getCountdown(med.time, med.days)}
+                    </span>
+                  </p>
+                  <p className="text-gray-700 mb-3">
+                    <strong>Days:</strong>{" "}
+                    {Array.isArray(med.days) ? med.days.join(", ") : med.days || "-"}
+                  </p>
+                </div>
 
-                {!isTaken ? (
+                <div className="flex flex-col gap-2">
+                  {!isTaken ? (
+                    <button
+                      onClick={() => handleMarkTaken(med._id)}
+                      className="bg-green-600 hover:bg-green-700 transition-colors duration-200 text-white rounded-md py-2 font-semibold"
+                    >
+                      Mark as Taken
+                    </button>
+                  ) : (
+                    <p className="text-green-700 font-semibold text-center">✅ Taken</p>
+                  )}
+
                   <button
-                    onClick={() => handleMarkTaken(med._id)}
-                    className="mt-3 bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700 transition duration-200"
+                    onClick={() => handleDelete(med._id)}
+                    className="bg-red-500 hover:bg-red-600 transition-colors duration-200 text-white rounded-md py-2 font-semibold"
                   >
-                    Mark as Taken
+                    Delete
                   </button>
-                ) : (
-                  <p className="text-green-700 font-semibold mt-3">✅ Taken</p>
-                )}
-
-                <button
-                  onClick={() => handleDelete(med._id)}
-                  className="mt-2 bg-red-500 text-white px-3 py-1 rounded hover:bg-red-600 transition duration-200"
-                >
-                  Delete
-                </button>
+                </div>
               </motion.li>
             );
           })}
         </ul>
       )}
 
-      <WeeklyCalendar medicines={medicines} />
+      <div className="mt-16">
+        <WeeklyCalendar medicines={medicines} />
+      </div>
     </div>
   );
 };

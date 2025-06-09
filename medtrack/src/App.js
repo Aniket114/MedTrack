@@ -10,34 +10,46 @@ import Signup from './pages/Signup';
 import Dashboard from './pages/Dashboard';
 import AddMedicine from './pages/AddMedicine';
 import ProtectedRoute from './components/ProtectedRoute';
-
+import DiseaseInfo from "./components/DiseaseInfo";
 
 function App() {
   return (
     <BrowserRouter>
       <Routes>
-  <Route path="/" element={<Layout><Landing /></Layout>} />
-  <Route path="/about" element={<Layout><About /></Layout>} />
-  <Route path="/contact" element={<Layout><Contact /></Layout>} />
-  <Route path="/signup" element={<Layout><Signup /></Layout>} />
-  <Route path="/login" element={<Layout><Login /></Layout>} />
-  <Route
-    path="/dashboard"
-    element={
-      <ProtectedRoute>
-        <Layout><Dashboard /></Layout>
-      </ProtectedRoute>
-    }
-  />
-  <Route
-    path="/add"
-    element={
-      <ProtectedRoute>
-        <Layout><AddMedicine /></Layout>
-      </ProtectedRoute>
-    }
-  />
-</Routes>
+        <Route path="/" element={<Layout><Landing /></Layout>} />
+        <Route path="/about" element={<Layout><About /></Layout>} />
+        <Route path="/contact" element={<Layout><Contact /></Layout>} />
+        <Route path="/signup" element={<Layout><Signup /></Layout>} />
+        <Route path="/login" element={<Layout><Login /></Layout>} />
+
+        <Route
+          path="/dashboard"
+          element={
+            <ProtectedRoute>
+              <Layout><Dashboard /></Layout>
+            </ProtectedRoute>
+          }
+        />
+
+        <Route
+          path="/add"
+          element={
+            <ProtectedRoute>
+              <Layout><AddMedicine /></Layout>
+            </ProtectedRoute>
+          }
+        />
+
+        {/* New route for Disease Info */}
+        <Route
+          path="/disease-info"
+          element={
+            <ProtectedRoute>
+              <Layout><DiseaseInfo /></Layout>
+            </ProtectedRoute>
+          }
+        />
+      </Routes>
     </BrowserRouter>
   );
 }

@@ -1,0 +1,308 @@
+{
+  "period pain": {
+    "description": "Menstrual cramps (dysmenorrhea) are throbbing or cramping pains in the lower abdomen, usually occurring before and during menstruation.",
+    "symptoms": ["Lower abdominal pain", "Back pain", "Nausea", "Fatigue", "Headache"],
+    "precautions": ["Stay hydrated", "Apply heating pad", "Exercise lightly", "Avoid caffeine", "Reduce stress"],
+    "medicines": [
+      {
+        "name": "Ibuprofen",
+        "image": "/image/ibuprofen.jpg",
+        "dosage": {
+          "adult": "200-400 mg every 4-6 hours as needed",
+          "child": "Consult pediatrician"
+        },
+        "timing": "After food",
+        "instructions": "Do not exceed 1200 mg in a day",
+        "ageLimit": "12+",
+        "sideEffects": ["Stomach upset", "Dizziness", "Nausea"],
+        "foodInteraction": "Avoid alcohol and spicy food",
+        "precautions": ["Not for long-term use", "Avoid in ulcers or kidney issues"]
+      }
+    ]
+  },
+
+  "pcos": {
+    "description": "Polycystic Ovary Syndrome (PCOS) is a hormonal disorder causing enlarged ovaries with small cysts. Common in women of reproductive age.",
+    "symptoms": ["Irregular periods", "Excess hair growth", "Acne", "Weight gain", "Infertility"],
+    "precautions": ["Maintain healthy weight", "Exercise regularly", "Eat balanced diet", "Reduce sugar intake"],
+    "medicines": [
+      {
+        "name": "Metformin",
+        "image": "/image/Metformin.jpg",
+        "dosage": {
+          "adult": "500 mg once or twice daily",
+          "child": "Not recommended"
+        },
+        "timing": "With meals",
+        "instructions": "Take at the same time daily",
+        "ageLimit": "18+",
+        "sideEffects": ["Nausea", "Diarrhea", "Stomach pain"],
+        "foodInteraction": "Avoid alcohol",
+        "precautions": ["Monitor blood sugar", "Not for people with kidney problems"]
+      }
+    ]
+  },
+
+  "uti": {
+    "description": "Urinary Tract Infection (UTI) is an infection in any part of the urinary system. It commonly affects women.",
+    "symptoms": ["Burning while urinating", "Frequent urination", "Cloudy urine", "Pelvic pain"],
+    "precautions": ["Drink lots of water", "Urinate after intercourse", "Maintain hygiene", "Avoid holding urine"],
+    "medicines": [
+      {
+        "name": "Ciprofloxacin",
+        "image": "/image/Ciprofloxacin.jpg",
+        "dosage": {
+          "adult": "250-500 mg twice a day",
+          "child": "Consult doctor"
+        },
+        "timing": "Before or after food",
+        "instructions": "Complete full course even if symptoms improve",
+        "ageLimit": "18+",
+        "sideEffects": ["Nausea", "Diarrhea", "Dizziness"],
+        "foodInteraction": "Avoid dairy and caffeine",
+        "precautions": ["Avoid sunlight", "Not for pregnant women"]
+      }
+    ]
+  },
+
+  "vaginal yeast infection": {
+    "description": "A common fungal infection caused by an overgrowth of Candida in the vagina, leading to irritation and discharge.",
+    "symptoms": ["Itching", "Burning", "Thick white discharge", "Redness", "Pain during urination"],
+    "precautions": ["Wear cotton underwear", "Avoid scented products", "Keep area dry", "Avoid tight clothes"],
+    "medicines": [
+      {
+        "name": "Fluconazole",
+        "image": "/image/fluconazole.jpg",
+        "dosage": {
+          "adult": "150 mg single dose orally",
+          "child": "Not recommended"
+        },
+        "timing": "Any time of the day",
+        "instructions": "Take with or without food",
+        "ageLimit": "18+",
+        "sideEffects": ["Headache", "Stomach pain", "Dizziness"],
+        "foodInteraction": "No major interactions",
+        "precautions": ["Avoid alcohol", "Consult doctor if pregnant"]
+      }
+    ]
+  },
+  "fever": {
+    "description": "Fever is a temporary rise in body temperature, usually due to infection.",
+    "symptoms": ["High temperature", "Sweating", "Shivering", "Headache"],
+    "precautions": ["Stay hydrated", "Rest well", "Avoid heavy exercise"],
+    "medicines": [
+      {
+        "name": "Paracetamol",
+        "image": "/image/Paracetamol.jpg",
+        "dosage": {
+          "adult": "500 mg every 6 hours",
+          "child": "10-15 mg/kg every 6 hours"
+        },
+        "timing": "After food",
+        "instructions": "Max 4g per day",
+        "ageLimit": "Above 2 years",
+        "sideEffects": ["Nausea", "Rash", "Liver damage (overdose)"],
+        "foodInteraction": "Best after food",
+        "precautions": ["Avoid alcohol", "Consult doctor if pregnant"]
+      }
+    ]
+  },
+
+  "cold": {
+    "description": "Common cold is a viral infection of the upper respiratory tract.",
+    "symptoms": ["Runny nose", "Sneezing", "Sore throat", "Cough"],
+    "precautions": ["Drink warm fluids", "Rest well", "Avoid cold air"],
+    "medicines": [
+      {
+        "name": "Cetirizine",
+        "image": "/image/Cetirizine.jpg",
+        "dosage": {
+          "adult": "10 mg daily",
+          "child": "5 mg daily"
+        },
+        "timing": "Evening or bedtime",
+        "instructions": "Can cause drowsiness",
+        "ageLimit": "Above 6 years",
+        "sideEffects": ["Drowsiness", "Dry mouth"],
+        "foodInteraction": "No major issue",
+        "precautions": ["Avoid driving", "Avoid alcohol"]
+      }
+    ]
+  },
+
+  "headache": {
+    "description": "Pain in the head or upper neck due to various causes like stress or migraine.",
+    "symptoms": ["Throbbing pain", "Tension", "Light sensitivity"],
+    "precautions": ["Avoid bright light", "Rest in quiet room", "Stay hydrated"],
+    "medicines": [
+      {
+        "name": "Ibuprofen",
+        "image": "/image/ibuprofen.jpg",
+        "dosage": {
+          "adult": "400 mg every 6-8 hours",
+          "child": "10 mg/kg every 6-8 hours"
+        },
+        "timing": "After food",
+        "instructions": "Do not exceed 1200 mg/day",
+        "ageLimit": "Above 6 months",
+        "sideEffects": ["Stomach pain", "Nausea", "Heartburn"],
+        "foodInteraction": "Take with food to avoid stomach upset",
+        "precautions": ["Avoid in ulcers", "Avoid alcohol"]
+      }
+    ]
+  },
+
+  "cough": {
+    "description": "A reflex action to clear airways of mucus or irritants.",
+    "symptoms": ["Dry or wet cough", "Sore throat", "Chest tightness"],
+    "precautions": ["Drink warm fluids", "Avoid cold drinks", "Use steam inhalation"],
+    "medicines": [
+      {
+        "name": "Dextromethorphan",
+        "image": "/image/dextromethorphan.jpg",
+        "dosage": {
+          "adult": "10-20 mg every 4 hours",
+          "child": "5 mg every 4 hours"
+        },
+        "timing": "Anytime",
+        "instructions": "Avoid overdose",
+        "ageLimit": "Above 4 years",
+        "sideEffects": ["Dizziness", "Drowsiness", "Nausea"],
+        "foodInteraction": "Can take with or without food",
+        "precautions": ["Avoid alcohol"]
+      }
+    ]
+  },
+
+  "diarrhea": {
+    "description": "Loose, watery stools occurring more frequently than usual.",
+    "symptoms": ["Frequent stools", "Dehydration", "Abdominal pain"],
+    "precautions": ["Drink ORS", "Avoid dairy", "Eat light food"],
+    "medicines": [
+      {
+        "name": "ORS",
+        "image": "/image/ors.jpg",
+        "dosage": {
+          "adult": "1 sachet per episode",
+          "child": "As per body weight"
+        },
+        "timing": "After each loose motion",
+        "instructions": "Mix with clean water",
+        "ageLimit": "All ages",
+        "sideEffects": ["No major side effects"],
+        "foodInteraction": "Take anytime",
+        "precautions": ["Use clean water", "Keep hydrated"]
+      }
+    ]
+  },
+
+  "vomiting": {
+    "description": "Forceful ejection of stomach contents through the mouth.",
+    "symptoms": ["Nausea", "Stomach discomfort", "Dehydration"],
+    "precautions": ["Avoid solid food", "Stay hydrated", "Rest"],
+    "medicines": [
+      {
+        "name": "Ondansetron",
+        "image": "/image/Ondansetron.jpg",
+        "dosage": {
+          "adult": "4 mg every 8 hours",
+          "child": "2 mg every 8 hours"
+        },
+        "timing": "Before food",
+        "instructions": "Do not exceed recommended dose",
+        "ageLimit": "Above 6 months",
+        "sideEffects": ["Constipation", "Headache", "Fatigue"],
+        "foodInteraction": "No major issue",
+        "precautions": ["Consult if pregnant"]
+      }
+    ]
+  },
+
+  "acidity": {
+    "description": "Excess acid in the stomach causing burning and discomfort.",
+    "symptoms": ["Burning chest", "Bloating", "Sour taste"],
+    "precautions": ["Avoid spicy food", "Eat on time", "Don’t lie down after meals"],
+    "medicines": [
+      {
+        "name": "Pantoprazole",
+        "image": "/images/Pantoprazole.jpg",
+        "dosage": {
+          "adult": "40 mg once daily",
+          "child": "Not usually recommended"
+        },
+        "timing": "Before breakfast",
+        "instructions": "Swallow whole",
+        "ageLimit": "Above 12 years",
+        "sideEffects": ["Headache", "Diarrhea", "Flatulence"],
+        "foodInteraction": "Take on empty stomach",
+        "precautions": ["Avoid long-term use"]
+      }
+    ]
+  },
+
+  "constipation": {
+    "description": "Infrequent bowel movements or difficult passage of stools.",
+    "symptoms": ["Hard stools", "Straining", "Bloating"],
+    "precautions": ["Drink water", "Eat fiber", "Exercise"],
+    "medicines": [
+      {
+        "name": "Lactulose",
+        "image": "/image/lactulose.jpg",
+        "dosage": {
+          "adult": "15-30 ml daily",
+          "child": "5-15 ml daily"
+        },
+        "timing": "After food",
+        "instructions": "Can take with water or juice",
+        "ageLimit": "Above 1 year",
+        "sideEffects": ["Bloating", "Gas", "Cramps"],
+        "foodInteraction": "No restrictions",
+        "precautions": ["Avoid overdose"]
+      }
+    ]
+  },
+
+  "allergy": {
+    "description": "Immune system reaction to a foreign substance.",
+    "symptoms": ["Sneezing", "Rash", "Itching"],
+    "precautions": ["Avoid allergens", "Keep environment clean"],
+    "medicines": [
+      {
+        "name": "Loratadine",
+        "image": "/image/loratadine.jpg",
+        "dosage": {
+          "adult": "10 mg once daily",
+          "child": "5 mg once daily"
+        },
+        "timing": "Any time",
+        "instructions": "Non-drowsy option",
+        "ageLimit": "Above 2 years",
+        "sideEffects": ["Dry mouth", "Headache"],
+        "foodInteraction": "No major interaction",
+        "precautions": ["Monitor in liver disease"]
+      }
+    ]
+  },
+
+  "sore throat": {
+    "description": "Pain or irritation in the throat often due to infection.",
+    "symptoms": ["Painful swallowing", "Redness", "Dryness"],
+    "precautions": ["Gargle with salt water", "Avoid cold drinks"],
+    "medicines": [
+      {
+        "name": "Benzydamine Gargle",
+        "image": "/image/benzydamine.jpg",
+        "dosage": {
+          "adult": "Gargle 15 ml 2-3 times/day",
+          "child": "Use under guidance"
+        },
+        "timing": "After meals",
+        "instructions": "Do not swallow",
+        "ageLimit": "Above 6 years",
+        "sideEffects": ["Burning", "Dry mouth"],
+        "foodInteraction": "N/A",
+        "precautions": ["Not for long-term use"]
+      }
+    ]
+  }
+}

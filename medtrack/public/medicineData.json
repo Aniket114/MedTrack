@@ -1,0 +1,222 @@
+[
+  {
+    "name": "Paracetamol",
+    "image": "/image/paracetamol.jpg",
+    "uses": "Used to treat fever and mild pain.",
+    "sideEffects": "Nausea, rash, liver damage (rare).",
+    "ageSafety": {
+      "children": "Safe in prescribed doses",
+      "adults": "Safe",
+      "elderly": "Safe"
+    }
+  },
+  {
+    "name": "Amoxicillin",
+    "image": "/image/amoxicillin.jpg",
+    "uses": "Antibiotic used for bacterial infections.",
+    "sideEffects": "Diarrhea, nausea, allergic reactions.",
+    "ageSafety": {
+      "children": "Use with caution under doctor’s guidance",
+      "adults": "Safe",
+      "elderly": "Safe"
+    }
+  },
+  {
+    "name": "Cetirizine",
+    "image": "/image/cetirizine.jpg",
+    "uses": "Used for allergy relief like runny nose and hives.",
+    "sideEffects": "Drowsiness, dry mouth, headache.",
+    "ageSafety": {
+      "children": "Low dosage recommended (5mg)",
+      "adults": "Safe",
+      "elderly": "Safe, may increase drowsiness"
+    }
+  },
+  {
+    "name": "Ibuprofen",
+    "image": "/image/ibuprofen.jpg",
+    "uses": "Pain relief, inflammation, and fever control.",
+    "sideEffects": "Stomach upset, dizziness, nausea.",
+    "ageSafety": {
+      "children": "Only under pediatric supervision",
+      "adults": "Safe",
+      "elderly": "Use with caution for stomach and kidney"
+    }
+  },
+  {
+    "name": "Dolo 650",
+    "image": "/image/dolo650.jpg",
+    "uses": "Used for fever and moderate pain relief.",
+    "sideEffects": "Liver toxicity in overdose, rash.",
+    "ageSafety": {
+      "children": "Not recommended under 12 years",
+      "adults": "Safe",
+      "elderly": "Safe with dosage control"
+    }
+  },
+  {
+    "name": "Azithromycin",
+    "image": "/image/azithromycin.jpg",
+    "uses": "Treats bacterial infections like throat and lung infections.",
+    "sideEffects": "Diarrhea, nausea, abdominal pain.",
+    "ageSafety": {
+      "children": "Safe with pediatric dose",
+      "adults": "Safe",
+      "elderly": "Safe"
+    }
+  },
+  {
+    "name": "Pantoprazole",
+    "image": "/image/pantoprazole.jpg",
+    "uses": "Used to reduce stomach acid and treat GERD.",
+    "sideEffects": "Headache, diarrhea, flatulence.",
+    "ageSafety": {
+      "children": "Generally not recommended",
+      "adults": "Safe",
+      "elderly": "Safe"
+    }
+  },
+  {
+    "name": "Montelukast",
+    "image": "/image/montelukast.jpg",
+    "uses": "Used for asthma and allergy symptoms.",
+    "sideEffects": "Sleep issues, stomach pain, mood changes.",
+    "ageSafety": {
+      "children": "Safe with doctor's guidance",
+      "adults": "Safe",
+      "elderly": "Safe"
+    }
+  },
+  {
+    "name": "Ranitidine",
+    "image": "/image/ranitidine.jpg",
+    "uses": "Used for acidity and ulcers.",
+    "sideEffects": "Constipation, diarrhea, headache.",
+    "ageSafety": {
+      "children": "Consult pediatrician",
+      "adults": "Safe",
+      "elderly": "Use with caution"
+    }
+  },
+  {
+    "name": "Metformin",
+    "image": "/image/metformin.jpg",
+    "uses": "Used to control blood sugar in type 2 diabetes.",
+    "sideEffects": "Nausea, metallic taste, diarrhea.",
+    "ageSafety": {
+      "children": "Not recommended",
+      "adults": "Safe",
+      "elderly": "Use with kidney monitoring"
+    }
+  },
+  {
+    "name": "Loperamide",
+    "image": "/image/loperamide.jpg",
+    "uses": "Used for diarrhea control.",
+    "sideEffects": "Drowsiness, constipation, dry mouth.",
+    "ageSafety": {
+      "children": "Avoid under 6 years",
+      "adults": "Safe",
+      "elderly": "Use with caution"
+    }
+  },
+  {
+    "name": "Ondansetron",
+    "image": "/image/ondansetron.jpg",
+    "uses": "Used to prevent nausea and vomiting.",
+    "sideEffects": "Headache, constipation, fatigue.",
+    "ageSafety": {
+      "children": "Safe in small doses",
+      "adults": "Safe",
+      "elderly": "Safe"
+    }
+  },
+  {
+    "name": "Levocetirizine",
+    "image": "/image/levocetirizine.jpg",
+    "uses": "Used to treat allergic rhinitis and urticaria.",
+    "sideEffects": "Drowsiness, dry mouth, fatigue.",
+    "ageSafety": {
+      "children": "Safe for ages 6+",
+      "adults": "Safe",
+      "elderly": "Safe"
+    }
+  },
+  {
+    "name": "Losartan",
+    "image": "/image/losartan.jpg",
+    "uses": "Used for high blood pressure and kidney protection.",
+    "sideEffects": "Dizziness, back pain, cold symptoms.",
+    "ageSafety": {
+      "children": "Not usually recommended",
+      "adults": "Safe",
+      "elderly": "Safe"
+    }
+  },
+  {
+    "name": "Amlodipine",
+    "image": "/image/amlodipine.jpg",
+    "uses": "Used to treat high blood pressure and chest pain.",
+    "sideEffects": "Swelling, dizziness, flushing.",
+    "ageSafety": {
+      "children": "Under doctor supervision",
+      "adults": "Safe",
+      "elderly": "Use with caution for blood pressure"
+    }
+  },
+  {
+    "name": "Ciprofloxacin",
+    "image": "/image/ciprofloxacin.jpg",
+    "uses": "Used for urinary tract and bacterial infections.",
+    "sideEffects": "Nausea, rash, tendon pain.",
+    "ageSafety": {
+      "children": "Avoid unless strictly needed",
+      "adults": "Safe",
+      "elderly": "Use with caution"
+    }
+  },
+  {
+    "name": "Vitamin D3",
+    "image": "/image/vitamin_d3.jpg",
+    "uses": "Used to treat or prevent vitamin D deficiency.",
+    "sideEffects": "Rare, may cause hypercalcemia if overdosed.",
+    "ageSafety": {
+      "children": "Safe",
+      "adults": "Safe",
+      "elderly": "Safe"
+    }
+  },
+  {
+    "name": "Iron Folic Acid",
+    "image": "/image/iron_folic.jpg",
+    "uses": "Used for anemia and pregnancy supplements.",
+    "sideEffects": "Constipation, black stool, nausea.",
+    "ageSafety": {
+      "children": "Use pediatric syrup or tablets",
+      "adults": "Safe",
+      "elderly": "Safe"
+    }
+  },
+  {
+    "name": "Salbutamol",
+    "image": "/image/salbutamol.jpg",
+    "uses": "Used to relieve asthma symptoms like wheezing.",
+    "sideEffects": "Tremors, fast heartbeat, nervousness.",
+    "ageSafety": {
+      "children": "Safe with inhaler or syrup",
+      "adults": "Safe",
+      "elderly": "Safe, monitor heart"
+    }
+  },
+  {
+    "name": "Prednisolone",
+    "image": "/image/prednisolone.jpg",
+    "uses": "Steroid used for inflammation, asthma, allergies.",
+    "sideEffects": "Weight gain, mood swings, high BP.",
+    "ageSafety": {
+      "children": "Use under strict medical supervision",
+      "adults": "Safe",
+      "elderly": "Use with caution"
+    }
+  }
+]
