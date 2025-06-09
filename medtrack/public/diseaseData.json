@@ -6,7 +6,7 @@
     "medicines": [
       {
         "name": "Ibuprofen",
-        "image": "/image/ibuprofen.jpg",
+        "image": "/image/Ibuprofen.jpg",
         "dosage": {
           "adult": "200-400 mg every 4-6 hours as needed",
           "child": "Consult pediatrician"
@@ -137,7 +137,7 @@
     "medicines": [
       {
         "name": "Ibuprofen",
-        "image": "/image/ibuprofen.jpg",
+        "image": "/image/Ibuprofen.jpg",
         "dosage": {
           "adult": "400 mg every 6-8 hours",
           "child": "10 mg/kg every 6-8 hours"
@@ -159,7 +159,7 @@
     "medicines": [
       {
         "name": "Dextromethorphan",
-        "image": "/image/dextromethorphan.jpg",
+        "image": "/image/Dextromethorphan.jpg",
         "dosage": {
           "adult": "10-20 mg every 4 hours",
           "child": "5 mg every 4 hours"
