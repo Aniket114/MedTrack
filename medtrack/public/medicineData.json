@@ -1,7 +1,7 @@
 [
   {
     "name": "Paracetamol",
-    "image": "/image/paracetamol.jpg",
+    "image": "/image/Paracetamol.jpg",
     "uses": "Used to treat fever and mild pain.",
     "sideEffects": "Nausea, rash, liver damage (rare).",
     "ageSafety": {
@@ -12,7 +12,7 @@
   },
   {
     "name": "Amoxicillin",
-    "image": "/image/amoxicillin.jpg",
+    "image": "/image/Amoxicillin.jpg",
     "uses": "Antibiotic used for bacterial infections.",
     "sideEffects": "Diarrhea, nausea, allergic reactions.",
     "ageSafety": {
@@ -23,7 +23,7 @@
   },
   {
     "name": "Cetirizine",
-    "image": "/image/cetirizine.jpg",
+    "image": "/image/Cetirizine.jpg",
     "uses": "Used for allergy relief like runny nose and hives.",
     "sideEffects": "Drowsiness, dry mouth, headache.",
     "ageSafety": {
@@ -34,7 +34,7 @@
   },
   {
     "name": "Ibuprofen",
-    "image": "/image/ibuprofen.jpg",
+    "image": "/image/Ibuprofen.jpg",
     "uses": "Pain relief, inflammation, and fever control.",
     "sideEffects": "Stomach upset, dizziness, nausea.",
     "ageSafety": {
@@ -45,7 +45,7 @@
   },
   {
     "name": "Dolo 650",
-    "image": "/image/dolo650.jpg",
+    "image": "/image/Dolo 650.jpg",
     "uses": "Used for fever and moderate pain relief.",
     "sideEffects": "Liver toxicity in overdose, rash.",
     "ageSafety": {
@@ -56,7 +56,7 @@
   },
   {
     "name": "Azithromycin",
-    "image": "/image/azithromycin.jpg",
+    "image": "/image/Azithromycin.jpg",
     "uses": "Treats bacterial infections like throat and lung infections.",
     "sideEffects": "Diarrhea, nausea, abdominal pain.",
     "ageSafety": {
@@ -67,7 +67,7 @@
   },
   {
     "name": "Pantoprazole",
-    "image": "/image/pantoprazole.jpg",
+    "image": "/image/Pantoprazole.jpg",
     "uses": "Used to reduce stomach acid and treat GERD.",
     "sideEffects": "Headache, diarrhea, flatulence.",
     "ageSafety": {
@@ -78,7 +78,7 @@
   },
   {
     "name": "Montelukast",
-    "image": "/image/montelukast.jpg",
+    "image": "/image/Montelukast.jpg",
     "uses": "Used for asthma and allergy symptoms.",
     "sideEffects": "Sleep issues, stomach pain, mood changes.",
     "ageSafety": {
@@ -89,7 +89,7 @@
   },
   {
     "name": "Ranitidine",
-    "image": "/image/ranitidine.jpg",
+    "image": "/image/Ranitidine.jpg",
     "uses": "Used for acidity and ulcers.",
     "sideEffects": "Constipation, diarrhea, headache.",
     "ageSafety": {
@@ -100,7 +100,7 @@
   },
   {
     "name": "Metformin",
-    "image": "/image/metformin.jpg",
+    "image": "/image/Metformin.jpg",
     "uses": "Used to control blood sugar in type 2 diabetes.",
     "sideEffects": "Nausea, metallic taste, diarrhea.",
     "ageSafety": {
@@ -111,7 +111,7 @@
   },
   {
     "name": "Loperamide",
-    "image": "/image/loperamide.jpg",
+    "image": "/image/Loperamide.jpg",
     "uses": "Used for diarrhea control.",
     "sideEffects": "Drowsiness, constipation, dry mouth.",
     "ageSafety": {
@@ -122,7 +122,7 @@
   },
   {
     "name": "Ondansetron",
-    "image": "/image/ondansetron.jpg",
+    "image": "/image/Ondansetron.jpg",
     "uses": "Used to prevent nausea and vomiting.",
     "sideEffects": "Headache, constipation, fatigue.",
     "ageSafety": {
@@ -133,7 +133,7 @@
   },
   {
     "name": "Levocetirizine",
-    "image": "/image/levocetirizine.jpg",
+    "image": "/image/Levocetirizine.jpg",
     "uses": "Used to treat allergic rhinitis and urticaria.",
     "sideEffects": "Drowsiness, dry mouth, fatigue.",
     "ageSafety": {
@@ -144,7 +144,7 @@
   },
   {
     "name": "Losartan",
-    "image": "/image/losartan.jpg",
+    "image": "/image/Losartan.jpg",
     "uses": "Used for high blood pressure and kidney protection.",
     "sideEffects": "Dizziness, back pain, cold symptoms.",
     "ageSafety": {
@@ -155,7 +155,7 @@
   },
   {
     "name": "Amlodipine",
-    "image": "/image/amlodipine.jpg",
+    "image": "/image/Amlodipine.jpg",
     "uses": "Used to treat high blood pressure and chest pain.",
     "sideEffects": "Swelling, dizziness, flushing.",
     "ageSafety": {
@@ -166,7 +166,7 @@
   },
   {
     "name": "Ciprofloxacin",
-    "image": "/image/ciprofloxacin.jpg",
+    "image": "/image/Ciprofloxacin.jpg",
     "uses": "Used for urinary tract and bacterial infections.",
     "sideEffects": "Nausea, rash, tendon pain.",
     "ageSafety": {
@@ -177,7 +177,7 @@
   },
   {
     "name": "Vitamin D3",
-    "image": "/image/vitamin_d3.jpg",
+    "image": "/image/Vitamin D3.jpg",
     "uses": "Used to treat or prevent vitamin D deficiency.",
     "sideEffects": "Rare, may cause hypercalcemia if overdosed.",
     "ageSafety": {
@@ -188,7 +188,7 @@
   },
   {
     "name": "Iron Folic Acid",
-    "image": "/image/iron_folic.jpg",
+    "image": "/image/Iron Folic Acid.jpg",
     "uses": "Used for anemia and pregnancy supplements.",
     "sideEffects": "Constipation, black stool, nausea.",
     "ageSafety": {
@@ -199,7 +199,7 @@
   },
   {
     "name": "Salbutamol",
-    "image": "/image/salbutamol.jpg",
+    "image": "/image/Salbutamol.jpg",
     "uses": "Used to relieve asthma symptoms like wheezing.",
     "sideEffects": "Tremors, fast heartbeat, nervousness.",
     "ageSafety": {
@@ -210,7 +210,7 @@
   },
   {
     "name": "Prednisolone",
-    "image": "/image/prednisolone.jpg",
+    "image": "/image/Prednisolone.jpg",
     "uses": "Steroid used for inflammation, asthma, allergies.",
     "sideEffects": "Weight gain, mood swings, high BP.",
     "ageSafety": {
